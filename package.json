@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "rollup index.js --namespaceToStringTag -f cjs -o out.js"
+  },
+  "dependencies": {
+    "rollup": "^2.39.0"
+  }
+}
